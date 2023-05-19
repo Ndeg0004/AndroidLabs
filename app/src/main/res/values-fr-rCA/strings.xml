@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="app_name">Laboratoires Androïdes</string>
+    <string name ="hello_text">Bonjour le monde</string>
+    <string name="button_text">je suis un bouton
+</string>
+
+</resources>
