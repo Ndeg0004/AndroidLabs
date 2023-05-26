@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Android Labs</string>
+    <string name="app_name">Android Labs</string>
     <string name ="hello_text">Hello World!</string>
-    <string name="button_text">I\'m a button</string>
+    <string name ="love_text">I Love Androids</string>
+    <string name="toast_message">Label has been updated.</string>
+    <string name="button_text">Press me</string>
+    <string name="check_text">Check this out!</string>
+    <string name="todo">TODO</string>
+    <string name="switch_text">Switch on/off</string>
+    <string name="i_love_android">I love Android</string>
+
+
 </resources>
