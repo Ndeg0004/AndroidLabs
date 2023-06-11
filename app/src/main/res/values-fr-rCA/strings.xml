@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <resources>
+<resources>
+    <string name="myButton">Ajouter</string>
+    <string name="toggle">Urgent</string>
+    <string name="hint">Saisir ici</string>
+    <string name="header">Lab4</string>
+    <string name="textHere">Le texte va ici</string>
+    <string name="app_name">Lab_4</string>
+</resources>
 
-    </resources>
 
 
