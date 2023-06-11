@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         myList.adapter = MyListAdapter().also { myAdapter = it }
 
         myList.onItemClickListener =
-            OnItemClickListener { parent: AdapterView<*>?, view: View?, pos: Int, id: Long ->
+            OnItemClickListener { parent: AdapterView<*>?, view: View?, _: Int, id: Long ->
                 // Handle item click here
             }
 
@@ -95,9 +95,9 @@ class MainActivity : AppCompatActivity() {
             val todo: TODO = getItem(position)
             tView.text = todo.getTodoText()
             if (todo.isUrgent()) {
-                tView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.white))
-            } else {
                 tView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.black))
+            } else {
+                tView.setTextColor(ContextCompat.getColor(this@MainActivity, R.color.purple_500))
             }
             return newView
         }

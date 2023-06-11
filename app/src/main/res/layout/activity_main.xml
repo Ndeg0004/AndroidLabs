@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="2dp"
         android:layout_marginEnd="8dp"
         android:background="@color/purple_500"
         android:gravity="center"
@@ -19,24 +19,17 @@
         android:textAlignment="viewStart"
         android:textColor="@color/white"
         android:textSize="20dp"
-        tools:ignore="RtlCompat" />
+        tools:ignore="RtlCompat,SpUsage,TextSizeCheck" />
 
     <ListView
         android:id="@+id/myList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/textView"
         android:layout_above="@id/linearLayout"
-        android:padding="10dp" >
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="2"
-            android:hint="@string/hint"
-            tools:ignore="MissingConstraints" />
-    </ListView>
+        android:layout_below="@id/textView"
+        android:layout_marginTop="-3dp"
+        android:layout_marginBottom="3dp"
+        android:padding="10dp" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -45,12 +38,22 @@
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
 
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:autofillHints="type"
+            android:hint="@string/hint"
+            tools:ignore="MissingConstraints,VisualLintTextFieldSize" />
+
         <Switch
             android:id="@+id/switch2"
             android:layout_width="0dp"
             android:layout_height="36dp"
             android:layout_weight="1"
-            android:text="@string/toggle" />
+            android:text="@string/toggle"
+            tools:ignore="UseSwitchCompatOrMaterialXml,VisualLintBounds,VisualLintButtonSize" />
 
         <Button
             android:id="@+id/myButton"
@@ -58,8 +61,10 @@
             android:layout_height="40dp"
             android:layout_weight="1"
             android:backgroundTint="@color/purple_500"
-            android:text="@string/myButton" />
+            android:text="@string/myButton"
+            android:textColor="#D1C4E9"
+            tools:ignore="VisualLintBounds,VisualLintButtonSize" />
 
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
