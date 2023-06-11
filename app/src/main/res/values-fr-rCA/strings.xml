@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <resources>
-        <string name="app_name">Lab03</string>
-        <string name="enter_your_name">Entrez votre nom</string>
-        <string name="save">SUIVANT</string>
-        <string name="Name">NOM</string>
-        <string name="welcome">Bienvenue !</string>
-        <string name="thank_you">Merci</string>
-        <string name="call">NE M\'APPELLE PAS COMME ÇA</string>
+
     </resources>
 
 
