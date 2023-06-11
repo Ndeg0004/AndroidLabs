@@ -74,9 +74,6 @@ class MainActivity : AppCompatActivity() {
     companion object {
         const val SHARED_PREFS = "sharedPrefs"
         const val TEXT = "text"
-        const val REQUEST_CODE_NAME_ACTIVITY = 1
-        const val RESULT_CODE_CHANGE_NAME = 0
-        const val RESULT_CODE_HAPPY = 1
     }
 }
 

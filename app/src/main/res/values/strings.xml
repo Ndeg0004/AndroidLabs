@@ -3,11 +3,11 @@
 <resources>
     <string name="app_name">Lab03</string>
     <string name="enter_your_name">Enter your name</string>
-    <string name="save">Save</string>
-    <string name="Name">name</string>
+    <string name="save">NEXT</string>
+    <string name="Name">NAME</string>
     <string name="welcome">Welcome!</string>
     <string name="thank_you">Thank You</string>
-    <string name="call">Don\'t call me that</string>
+    <string name="call">DON\'T CALL ME THAT</string>
 </resources>
 
 
