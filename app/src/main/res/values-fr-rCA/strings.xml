@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name ="app_name">Laboratoires Androïdes</string>
-    <string name ="hello_text">Bonjour le monde</string>
-    <string name = "love_text">J\'aime les androïdes</string>
-    <string name="toast_message">Le label a été mis à jour.</string>
-    <string name="button_text">Appuie-moi</string>
-    <string name="check_text">Cochez ceci !</string>
-    <string name="todo">FAIRE</string>
-    <string name="switch_text">Allumer / éteindre</string>
+<resources></resources>
 
-
-</resources>
