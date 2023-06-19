@@ -7,6 +7,5 @@
         <item name="colorAccent">@color/purple_200</item>
         <item name="colorContainer">@color/teal_200</item>
 
-        <!-- Add other style attributes as needed -->
     </style>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -47,7 +47,7 @@
             android:hint="@string/hint"
             tools:ignore="MissingConstraints,VisualLintTextFieldSize" />
 
-        <Switch
+        <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/switch2"
             android:layout_width="0dp"
             android:layout_height="36dp"
@@ -55,7 +55,7 @@
             android:text="@string/toggle"
             tools:ignore="UseSwitchCompatOrMaterialXml,VisualLintBounds,VisualLintButtonSize" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/myButton"
             android:layout_width="0dp"
             android:layout_height="40dp"
